@@ -1,0 +1,15 @@
+Sécuriser Apache
+
+1 - cd /etc/apache2/conf-available/
+
+
+2 - nano security.conf
+
+
+3 - ServerTokens OS en --> ServerTokens Prod
+
+
+4 - ServerSignature On en --> ServerSignature Off
+
+
+5 - systemctl restart apache2

@@ -1,0 +1,7 @@
+1 - nano /etc/ssh/sshd_config
+
+2 - Changer : #port 22 --> port <VOTRE PORT>
+    Faites ctrl +  X
+    Puis taper sur Y pour enregistrer
+
+3 - systemctl restart ssh

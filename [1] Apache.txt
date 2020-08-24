@@ -1,0 +1,26 @@
+//Connaitre la version debian :
+1 - cat /etc/debian_version
+
+DEBIAN8
+
+1 - sudo apt-get update && sudo apt-get upgrade
+
+2 - apt-get install apache2 libapache2-mod-php5 mysql-server php5-mysql php5-gd phpmyadmin php5 php5-curl php5-imap php5-ldap
+
+3- apt-get install systemd systemd-sysv 
+
+4 - reboot
+
+5 - systemctl status apache2.service
+
+DEBIAN9
+
+1 - apt-get update && apt-get upgrade
+
+2 - apt-get install apache2 libapache2-mod-php mysql-server php-mysql php-gd phpmyadmin php php-curl php-imap php-ldap
+
+3 - apt-get install systemd systemd-sysv 
+
+4 - reboot
+
+5 - systemctl status apache2.service
