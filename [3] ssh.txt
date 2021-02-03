@@ -1,7 +1,9 @@
-1 - nano /etc/ssh/sshd_config
+Sécuriser ssh
 
-2 - Changer : #port 22 --> port <VOTRE PORT>
+nano /etc/ssh/sshd_config
+
+Changer : #port 22 --> port <VOTRE PORT DU VPS>
     Faites ctrl +  X
     Puis taper sur Y pour enregistrer
 
-3 - systemctl restart ssh
+systemctl restart ssh
